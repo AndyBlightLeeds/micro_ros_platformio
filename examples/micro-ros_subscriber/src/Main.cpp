@@ -16,7 +16,7 @@ std_msgs__msg__Int32 msg;
 // Subscriber
 static const char *k_twist = "cmd_vel";
 static rcl_subscription_t subscriber_twist;
-static geometry_msgs__msg__Twist *twist_msg;
+static geometry_msgs__msg__Twist twist_msg;
 
 // Node, executor and timer variables.
 rclc_executor_t executor;
